@@ -1,15 +1,15 @@
-package com.ds.entities.domain;
+package client.domain;
 
 import lombok.Builder;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
-import java.io.Serializable;
-
-@Data
 @Builder
-public class InputOrder implements Serializable {
-    //@Id
+@Data
+public class Order {
+    @Id
     private Integer id;
     //private Integer customerId;
     private String productName;
+    //private Customer customer;
 }
