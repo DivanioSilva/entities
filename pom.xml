@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ds</groupId>
     <artifactId>entities</artifactId>
-    <version>${revision}-RELEASE</version>
+    <version>${revision}-SNAPSHOT</version>
     <name>entities</name>
     <description>entities</description>
     <properties>
